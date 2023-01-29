@@ -7,7 +7,7 @@ export default function App() {
     email: { required: false },
     password: { required: false },
     name: { required: false },
-    custom_error: null,
+    custom_error: null, 
   };
   const [errors, setErrors] = useState(initialStateErrors);
   const [loading, setLoading] = useState(null);
